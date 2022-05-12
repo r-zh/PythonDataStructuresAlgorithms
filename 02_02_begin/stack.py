@@ -36,4 +36,4 @@ class Stack:
 if __name__ == "__main__":
     s = Stack()
     print(s)
-    print(2^11^2)
+    print(2 ^ 11 ^ 2)
