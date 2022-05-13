@@ -10,7 +10,7 @@ from stack import Stack
 
 
 def dfs(maze, start, goal):
-    pass
+    stack = Stack()
 
 
 if __name__ == "__main__":

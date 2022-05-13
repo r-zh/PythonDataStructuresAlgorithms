@@ -10,13 +10,13 @@ class Stack:
     # pass
 
     def __init__(self):
-        self.items=[]
+        self.items = []
 
     def is_empty(self):
-        #return len(self.items) == 0 '
+        # return len(self.items) == 0 '
         return not self.items
 
-    def push(self,item):
+    def push(self, item):
         self.items.append(item)
 
     def pop(self):
