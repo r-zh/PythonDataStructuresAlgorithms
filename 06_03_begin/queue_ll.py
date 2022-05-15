@@ -9,6 +9,12 @@ from collections import deque
 
 class Queue:
     def __init__(self):
+        """
+        use deque instead of array, list is not efficient:
+        appends and pops from the end of the list are fast
+        doing insert or pops from the beginning of a list is slow
+        because all the other element will be shifted by one
+        """
         self.items = deque()
 
     def is_empty(self):
@@ -45,4 +51,3 @@ if __name__ == "__main__":
     print(q.size())
     print(q.peek())
     print(q)
-

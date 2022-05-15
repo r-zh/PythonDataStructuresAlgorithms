@@ -9,7 +9,10 @@ predecessors and g-values.
 from helpers import get_path, offsets, is_legal_pos, read_maze
 from priority_queue import PriorityQueue
 
-
+# G: from start to now
+# H: form now to end
+# F: G + H
+# A* means the find min(F)
 def heuristic(a, b):
     """
     Calculates the Manhattan distance between two pairs of grid coordinates.
