@@ -6,7 +6,7 @@ Robin Andrews - https://compucademy.net/
 
 import heapq
 
-
+# each element has priority, then they are ordered by it
 class PriorityQueue:
     def __init__(self):
         self.elements = []
@@ -15,6 +15,7 @@ class PriorityQueue:
         return not self.elements
 
     def put(self, item, priority):
+        # standard module of python
         heapq.heappush(self.elements, (priority, item))
 
     def get(self):

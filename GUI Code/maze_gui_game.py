@@ -4,6 +4,7 @@ Robin Andrews - https://compucademy.net/
 """
 
 import config
+# very powerful module!
 import turtle
 import random
 
